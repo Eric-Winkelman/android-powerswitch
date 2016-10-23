@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Power Switch</string>
+    <string name="pref_title_pi_ip_address">IP Address</string>
+    <string name="pref_title_label_1">Switch 1</string>
+    <string name="pref_title_label_2">Switch 2</string>
+    <string name="pref_title_label_3">Switch 3</string>
+    <string name="pref_summary_label">Description</string>
+    <string name="pref_pi_text">Pi Toggle Message</string>
+    <string name="preferences">Preferences</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_add_switch">Add Switch</string>
+    <string name="menu_remove_all_switches">Remove All Switches</string>
+    <string name="menu_save_switch">Save</string>
+    <string name="row_edit">Edit</string>
+    <string name="row_delete">Delete</string>
+    <string name="on_text">On</string>
+    <string name="off_text">Off</string>
+    <string name="speech_prompt">Say something</string>
+    <string name="speech_not_supported">Your device no likey speech input</string>
+</resources>

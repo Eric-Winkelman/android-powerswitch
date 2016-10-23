@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/menu_preferences"
+    android:title="@string/menu_preferences"
+    app:showAsAction="ifRoom"
+    android:icon="@android:drawable/ic_menu_preferences"/>
+
+<item
+    android:id="@+id/menu_add_switch"
+    android:title="@string/menu_add_switch"
+    app:showAsAction="ifRoom"
+    android:icon="@android:drawable/ic_menu_add"/>
+
+    <item
+        android:id="@+id/menu_remove_all_switches"
+        android:title="@string/menu_remove_all_switches"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_delete"/>
+
+</menu>

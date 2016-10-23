@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="preference_ip_address"
+        android:title="@string/pref_title_pi_ip_address"
+        android:summary="@string/pref_title_pi_ip_address"
+        android:defaultValue="0.0.0.0"
+        android:dialogTitle="@string/pref_title_pi_ip_address" />
+
+    <!--<EditTextPreference
+        android:key="preference_switch_label_1"
+        android:title="@string/pref_title_label_1"
+        android:summary="@string/pref_summary_label"
+        android:defaultValue="Switch 1"
+        android:dialogTitle="@string/pref_title_label_1" />
+
+    <EditTextPreference
+        android:key="preference_switch_label_2"
+        android:title="@string/pref_title_label_2"
+        android:summary="@string/pref_summary_label"
+        android:defaultValue="Switch 2"
+        android:dialogTitle="@string/pref_title_label_2" />
+
+    <EditTextPreference
+        android:key="preference_switch_label_3"
+        android:title="@string/pref_title_label_3"
+        android:summary="@string/pref_summary_label"
+        android:defaultValue="Switch 3"
+        android:dialogTitle="@string/pref_title_label_3" />
+-->
+    <EditTextPreference
+        android:key="preference_pi_text"
+        android:title="@string/pref_pi_text"
+        android:summary="@string/pref_pi_text"
+        android:defaultValue="Rhode Smells"
+        android:dialogTitle="@string/pref_pi_text"
+        android:maxLength="16"/>
+</PreferenceScreen>
